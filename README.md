@@ -38,7 +38,7 @@ This repository is a COPY of the Open Source project [OpenTrader](https://github
 
 2. **Navigate to project root and install dependencies**:
    ```bash
-   cd crypto
+   cd opentrader
    pnpm install
    ```
 
