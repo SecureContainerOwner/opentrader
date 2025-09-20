@@ -24,6 +24,7 @@ export default defineConfig({
   external: [], // No external dependencies - bundle everything
   env: {
     NODE_ENV: "production",
+    OPENTRADER_BUNDLED: "true", // Flag to indicate this is a bundled build
   },
   noExternal: [/.*/], // Bundle ALL dependencies (both internal @opentrader packages and external npm packages)
   platform: "node",
